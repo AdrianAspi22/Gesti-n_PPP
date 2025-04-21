@@ -1,0 +1,95 @@
+{
+  "MessageStructure": {
+    "Actor": {
+      "Messages": [
+        "MESSAGE_ADVISOR_NOT_EXISTS",
+        "MESSAGE_ACTOR_ASESOR_NO_EXISTS",
+        "MESSAGE_DUPLICATE_COORDINATOR"
+      ]
+    },
+    "AdvisoringContract": {
+      "Messages": [
+        "MESSAGE_AdvisoringContract_NOT_EXISTS",
+        "MESSAGE_AdvisoringContract_DESACTIVE",
+        "MESSAGE_AdvisoringContract_SUCCESS",
+        "MESSAGE_AdvisoringContract_ERROR",
+        "MESSAGE_AdvisoringContract_ANSWER",
+        "MESSAGE_AdvisoringContract_ANSWER_ERROR",
+        "MESSAGE_LISTCONTRACT_ERROR"
+      ]
+    },
+    "General": {
+      "Success": [
+        "Successful",
+        "Save",
+        "Update",
+        "Delete",
+        "Actived",
+        "Desactived",
+        "EmailCorrect",
+        "SuccessConsult",
+        "TokenCorrect"
+      ],
+      "Validation": [
+        "QueryEmpty",
+        "ErrorValidate",
+        "MESSAGE_REGISTER_NOT_UNIQUE",
+        "RegisteredExisted",
+        "MESSAGE_VALIDATE_FILE_TYPE_IMAGE",
+        "FileTypeFile",
+        "FileSizeFile"
+      ],
+      "Authentication": [
+        "MESSAGE_TOKEN_ERROR",
+        "MESSAGE_GOOGLE_ERROR",
+        "MESSAGE_AUTH_TYPE_GOOGLE",
+        "MESSAGE_AUTH_TYPE",
+        "MESSAGE_AUTH_INACTIVE"
+      ],
+      "Error": [
+        "Failed",
+        "Exception",
+        "Email_Error",
+        "MESSAGE_INVALID_TENANT"
+      ],
+      "Restriction": [
+        "MESSAGE_DELETE_CONFIRM",
+        "MESSAGE_EDIT_CONFIRM",
+        "MESSAGE_CHANGE_PERFIL_ADMIN_STATE"
+      ],
+      "Status": [
+        "MESSAGE_ACTIVATED"
+      ]
+    },
+    "GroupMember": {
+      "Messages": [
+        "MESSAGE_GROUPMEMBER_EXISTS",
+        "MESSAGE_GROUPMEMBER_COORDINATOR_OTHER_RESEARCHGROUP",
+        "MESSAGE_GROUPMEMBER_ERROR",
+        "MESSAGE_LISTGROUPMEMBER_ERROR"
+      ]
+    },
+    "ResearchArea": {
+      "Messages": [
+        "MESSAGE_LISTRESEARCHAREA_ERROR"
+      ]
+    },
+    "ResearchGroup": {
+      "Messages": [
+        "MESSAGE_RESEARCHGROUP_NO_EXISTS",
+        "MESSAGE_LISTRESEARCHGROUP_ERROR",
+        "MESSAGE_LISTACRONYMRESEARCHGROUP_ERROR"
+      ]
+    },
+    "ResearchLine": {
+      "Messages": [
+        "MESSAGE_LISTRESEARCHLINE_ERROR"
+      ]
+    },
+    "Thesis": {
+      "Messages": [
+        "MESSAGE_LISTTHESIS_ERROR"
+      ]
+    }
+  }
+}

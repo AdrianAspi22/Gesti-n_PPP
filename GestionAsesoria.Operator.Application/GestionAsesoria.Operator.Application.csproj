@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTOs\Project\Response\**" />
+    <Compile Remove="DTOs\ResearchLineByProfessionalSchools\**" />
+    <Compile Remove="Features\ThesisContracts\**" />
+    <Compile Remove="Mappings\GoogleCalendar\**" />
+    <EmbeddedResource Remove="DTOs\Project\Response\**" />
+    <EmbeddedResource Remove="DTOs\ResearchLineByProfessionalSchools\**" />
+    <EmbeddedResource Remove="Features\ThesisContracts\**" />
+    <EmbeddedResource Remove="Mappings\GoogleCalendar\**" />
+    <None Remove="DTOs\Project\Response\**" />
+    <None Remove="DTOs\ResearchLineByProfessionalSchools\**" />
+    <None Remove="Features\ThesisContracts\**" />
+    <None Remove="Mappings\GoogleCalendar\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Auth.AspNetCore3" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.68.0.3536" />
+    <PackageReference Include="Google.Apis.Gmail.v1" Version="1.68.0.3427" />
+    <PackageReference Include="Google.Apis.Oauth2.v2" Version="1.68.0.1869" />
+    <PackageReference Include="LazyCache" Version="2.4.0" />
+    <PackageReference Include="MailKit" Version="4.8.0" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NodaTime" Version="3.2.1" />
+    <PackageReference Include="TimeZoneConverter" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionAsesoria.Operator.Shared\GestionAsesoria.Operator.Shared.csproj" />
+    <ProjectReference Include="..\GestionAsesoria.Operator.Domain\GestionAsesoria.Operator.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GestionAsesoria.Operator.Tests" />  
+  </ItemGroup>
+  
+  
+  <ItemGroup>
+    <Folder Include="DTOs\Funding\Response\" />
+    <Folder Include="Features\Actors\Commands\" />
+    <Folder Include="Features\Actors\Queries\GetResearchGroupDetails\" />
+    <Folder Include="Features\Projects\Queries\" />
+  </ItemGroup>
+
+</Project>

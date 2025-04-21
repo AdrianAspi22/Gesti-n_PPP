@@ -1,0 +1,16 @@
+﻿namespace GestionAsesoria.Operator.Application.DTOs.Identities.Response
+{
+    public class UserResponse
+    {
+        public string? Id { get; set; }
+        public string? UserName { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? Email { get; set; }
+        public string ReportUser { get; set; }
+        public bool IsActive { get; set; } = true;
+        public string? UserStatus { get; set; }
+        public bool EmailConfirmed { get; set; }
+        public string? PhoneNumber { get; set; }
+    }
+}
