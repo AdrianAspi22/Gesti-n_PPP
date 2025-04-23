@@ -37,6 +37,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prueba_rama", "prueba_rama", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		prueba.cs = prueba.cs
+		prueba_2.cs = prueba_2.cs
 	EndProjectSection
 EndProject
 Global
